@@ -5,7 +5,7 @@ const myControllerFunction = async (req, res) => {
 
  
 
-
+console.log('test');
 
   const newTank = await Demo.create(req.body)
   console.log()
